@@ -1,0 +1,13 @@
+﻿---
+ID: "e6f04b76-c48a-4fcd-b687-999f20451050"
+Parent: "143867ac-6dc2-41df-ab8a-b8e1a8528b13"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Financial/Presentation/Headless Variants/HeroBanner/HGV
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fd0f898-f518-4c02-8e2f-bbccfbf1ce91"

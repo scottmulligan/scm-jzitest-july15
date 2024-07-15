@@ -1,0 +1,13 @@
+﻿---
+ID: "274e20ed-3dfc-4cf2-99f2-1a35d2c04b9d"
+Parent: "9b34c1c3-fad4-4814-905c-15f77c505e49"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Financial/Presentation/Headless Variants/HGV Bar/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a8aa8f1-930b-42f5-832c-87a2d3f0dd05"

@@ -1,0 +1,39 @@
+﻿---
+ID: "9af4e968-26ce-4bea-aa68-52ec876ecd58"
+Parent: "93aa3869-2490-4320-8225-fd7c06f38cb0"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/Verticals/Financial/HGV/luggage
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/9AF4E96826CE4BEAAA6852EC876ECD58.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 45
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "db68afb7-02df-4288-af03-4188cf9de4cb"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAC0AAAA8CAMAAADFTsOWAAABF1BMVEUAsLmAgIAAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLkAsLlH/DGLAAAAXHRSTlMAAAECAwQGCAoNEBIVFhcbHB0fJCYoKywxNDlAQ0RITU5PUlVZWlxhY2hpamtsc3Z6fX6DiouMk5WXnqWqrK+5u72/wcXIyc7P0NLT1tff4+Xo6u3w8vT3+Pr8/SkU48UAAAGdSURBVEjH3dYJT8IwGAbgjsnhRC7vEy8Eh6goXogHHijzVhRw7///Ha7aYTGwthpi4pssW8oT+nXN8pVoHyE0oWIdXOrFEHGjMcbpIr6l6KXrSBqA4V5J1AWaAMS9BFqtErVV0gAJg4ZWw6WrNtj9f2ndtGx4xbZM3dV6CeKUGCcmGrmI4ZVIrgGTaQs5vu6OycFi2kZYqMOwmQY0oWaopa2uC7R+rTtNX0WhgCqR1Dbicdi90WqVZOgiM7Ka5Gu1PJHWXXfnTzWalZSCdrInrRPRvI2UrDY0LY+Kgo6i2TOtUonSKtXeoPfu6GMqOz+Ps0W/tD5xJn/YjMjpEdjbj06xB5MyehdHJLB07kxwmQ6KdP8Lpul9nPbEYZFexa3v82kHx6JKfDd43R+lT8FnzIl038q1U/Hpgp+kcadLvMGpwzfgfuMK63LfZWzriTb7AdmvOLB8wY4Rkt/8xFC7Vus7aj2N9suwpw47/TL7o16s6WtCnNW/zhABYCZBM0uPdm4GudG2E0e59Sdlrty2UU7H3B/KMX4v+VGm3wHYC+xZoW5MdgAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 865
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 45 x 60
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 60
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d20f35dd-ecda-426f-b00c-e630d661a0e3"

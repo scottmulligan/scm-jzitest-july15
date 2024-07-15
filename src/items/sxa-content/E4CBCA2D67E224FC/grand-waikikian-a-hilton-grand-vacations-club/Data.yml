@@ -1,0 +1,18 @@
+﻿---
+ID: "c9df9195-1dfd-4693-a2f8-42c6c2f6cba6"
+Parent: "770a2b20-b6d7-483d-89d0-691622a37d98"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/hawaii/oahu/grand-waikikian-a-hilton-grand-vacations-club/Data"
+BranchID: "e6952b59-41b9-4f19-a6a8-e995ea78df57"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F9F119A8-598E-4175-BF31-651905A97C56}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "824de1eb-94b6-4050-9643-dabee13b9a96"

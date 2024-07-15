@@ -1,0 +1,286 @@
+.hero-banner {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  @include respond-to(mobile-large) {
+    margin-top: $component-margin;
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+  }
+
+  &.with-dotted-accents {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    @include respond-to(mobile-large) {
+      margin-top: $component-margin;
+    }
+
+    .img-column img {
+      max-height: 620px;
+    }
+  }
+
+  &:not(.with-dotted-accents) {
+    .dotted-accent {
+      display: none;
+    }
+  }
+
+  &:not(.with-icon-accent) {
+    .icon-accent {
+      display: none;
+    }
+  }
+
+  &.bordered {
+    .img-column img {
+      border-radius: 0;
+      border: 1px solid var(--border-color);
+    }
+  }
+
+  .hero-row {
+    display: flex;
+    align-items: flex-start;
+
+    @include respond-to(mobile-large) {
+      flex-direction: column;
+    }
+  }
+
+  .content-column {
+    position: relative;
+    flex-basis: 45%;
+    max-width: 564px;
+
+    @include respond-to(mobile-large) {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-right: 160px;
+      margin-bottom: 2rem;
+    }
+
+    @include respond-to(mobile-horizontal) {
+      margin-right: 0;
+    }
+
+    .rich-content {
+      opacity: 0.65;
+    }
+  }
+
+  .img-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: auto;
+    flex-basis: 40%;
+
+    .img-wrapper {
+      position: relative;
+    }
+
+    img {
+      max-height: 445px;
+      object-fit: cover;
+      border-radius: var(--roundness);
+    }
+  }
+
+  .icon-accent {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 1rem);
+    z-index: 2;
+
+    @include respond-to(mobile-horizontal) {
+      display: none;
+    }
+  }
+
+  .dotted-accent {
+    position: absolute;
+    z-index: 2;
+
+    &-top {
+      top: -70px;
+      right: -70px;
+    }
+
+    &-bottom {
+      bottom: -70px;
+      left: -70px;
+    }
+  }
+}
+
+.hgv-hero {
+  background-image: url("https://www.hiltongrandvacations.com/-/media/images/main/home/gettyimages-707435053-2880x1564.jpg?h=1564&amp;w=2880&amp;hash=B5E3BBD3B8BA2499407E2DA8DF5D1BF8");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 10px grey;
+  min-height: 740px;
+  max-height: 100%;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .hero__wrapper {
+    position: relative;
+    margin: 0 auto;
+    min-height: 740px;
+    max-height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    z-index: auto;
+    text-align: left;
+  }
+
+  .hero__row--content {
+    padding-top: 243px;
+  }
+
+  .hero__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .hero__row--promo {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 45px auto;
+    right: 0;
+    top: 0;
+  }
+
+  .hero__backdrop::after {
+    content: "";
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero__backdrop::before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    opacity: 0.65;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero__content {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 0 20px;
+    z-index: 2;
+
+    .hero__title {
+      font-size: 38px;
+    }
+
+    .hero__subtitle {
+      font-size: 20px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .hero__row--content {
+      padding-top: 243px;
+  }
+  }
+
+  @media (min-width: 768px) {
+    .hgv-hero {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hero__title {
+      color: #383838;
+    }
+
+    .hero__subtitle {
+      margin-top: 10px;
+      color: #383838;
+    }
+
+    .hero__content {
+      color: #000D14;
+      padding-left: 0;
+      text-align: left;
+      margin: 0 auto 0 0;
+    }
+
+    .hero__row--content {
+      padding-top: 225px;
+    }
+
+    .hero__row {
+      max-width: 960px;
+      top: 40px;
+    }
+
+    .hero__backdrop::after {
+      content: "";
+      background-color: initial;
+      opacity: initial;
+      height: 200px;
+    }
+
+    .hero__backdrop::before {
+      content: "";
+      background: -ms-linear-gradient(right, transparent 0%, #fff 100%);
+      background-color: initial;
+      opacity: 0.75;
+      background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0%)), to(#fff));
+      background-image: linear-gradient(to left, rgba(255, 255, 255, 0%), #fff 100%);
+      width: 60%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .hero__row {
+        max-width: 1200px;
+    }
+  }
+}

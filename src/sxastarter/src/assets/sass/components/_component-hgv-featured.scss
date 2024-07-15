@@ -1,0 +1,209 @@
+.hgv-section {
+  .hgv-header {
+    display: flex;
+    align-items: center;
+    margin: 30px auto 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: calc(100% - 60px);
+    max-width: 1200px;
+
+    .hgv-title {
+      margin: 30px 0;
+      font-size: 28px;;
+    }
+
+    .hgv-btn--link {
+      background-color: transparent;
+      text-transform: uppercase;
+      position: relative;
+      top: -3px;
+      margin-left: auto;
+    }
+
+    .hgv-btn--link::after {
+      content: "\203A";
+      font-size: 24px;
+      position: relative;
+      left: 12px;
+      top: 1px;
+    }
+
+    .hgv-btn {
+      background-color: #fff;
+      border: none;
+      border-radius: 50px;
+      color: #000D14;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 25px;
+    }
+  }
+
+  .slider {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+
+    .slider-container {
+      display: block;
+
+      .slick-track::before, .slick-track::after {
+        content: "";
+        display: table;
+      }
+
+      .slick-track::after {
+        clear: both;
+      }
+    }
+
+    .slider__item {
+      width: 400px;
+      float: left;
+
+      .resorts-tile {
+        position: relative;
+        margin: 0 auto;
+        height: 415px;
+        overflow: hidden;
+
+        .resorts-tile__content {
+          position: absolute;
+          color: #000D14;
+          background: rgba(255, 255, 255, 90%);
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding: 8px 12px;
+          margin: 0;
+        }
+
+        .resorts-tile__media {
+          display: block;
+          background-size: cover;
+          background-position: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+
+          .resorts-tile__image {
+            -o-object-fit: cover;
+            object-fit: cover;
+            -o-object-position: 50% 50%;
+            object-position: 50% 50%;
+          }
+        }
+      }
+
+      @media (min-width: 992px) {
+        .resorts-tile {
+            width: 338px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .slider__item .resorts-tile {
+            width: 367px;
+            height: 415px;
+        }
+      }
+    }
+
+    .slider-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 30px auto 20px;
+      position: relative;
+      width: 170px;
+
+      .slider-nav__prev {
+        position: absolute;
+        display: block;
+        line-height: 0px;
+        font-size: 0px;
+        cursor: pointer;
+        background: transparent;
+        color: transparent;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        padding: 0;
+        border: none;
+        outline: none;
+        left: 0;
+        min-width: 50px;
+        min-height: 50px;
+        width: auto;
+        height: auto;
+      }
+
+      .slider-nav__prev::before {
+        content: "\F177";
+        font-family: "Font Awesome 6 Pro";
+        color: #165C7D;
+        z-index: 10;
+        font-size: 42px;
+        opacity: 1;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+
+      .slider-nav__next {
+        position: absolute;
+        display: block;
+        line-height: 0px;
+        font-size: 0px;
+        cursor: pointer;
+        background: transparent;
+        color: transparent;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        padding: 0;
+        border: none;
+        outline: none;
+        right: 0;
+        min-width: 50px;
+        min-height: 50px;
+        width: auto;
+        height: auto;
+      }
+
+      .slider-nav__next::before {
+        content: "\F178";
+        font-family: "Font Awesome 6 Pro";
+        color: #165C7D;
+        z-index: 10;
+        font-size: 42px;
+        opacity: 1;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .slider-nav {
+          width: 30%;
+      }
+    }
+  }
+}

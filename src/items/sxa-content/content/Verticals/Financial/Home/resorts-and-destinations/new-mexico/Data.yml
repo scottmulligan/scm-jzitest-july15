@@ -1,0 +1,25 @@
+﻿---
+ID: "fc733402-817d-468b-b5b7-5dbe3549a99f"
+Parent: "5c2c3229-e6f8-4459-9b7c-02acd531f0e7"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/new-mexico/Data"
+BranchID: "e6952b59-41b9-4f19-a6a8-e995ea78df57"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F9F119A8-598E-4175-BF31-651905A97C56}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e50222b8-d55a-402e-8934-e885f619ade9"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfa74b8d-41f8-46ab-914f-c8b08514e437"

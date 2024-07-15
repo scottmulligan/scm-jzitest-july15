@@ -1,0 +1,176 @@
+@media (min-width: 768px) {
+  .full-width-cta {
+      overflow: visible;
+  }
+}
+
+@media (min-width: 992px) {
+  .full-width-cta__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row !important;
+    max-width: 900px;
+  }
+
+  .full-width-cta {
+    padding: 0;
+
+    .full-width-cta__callout {
+      right: inherit;
+      margin-top: 20px;
+      width: auto;
+    }
+
+    .full-width-cta__image {
+      height: 100%;
+    }
+
+    .full-width-cta__promo {
+      margin: -10px 0;
+      width: 285px;
+    }
+
+    .full-width-cta__offer {
+      width: 215px;
+    }
+  }
+
+  .full-width-cta::before, .full-width-cta::after {
+    height: 270px;
+  }
+}
+
+.hgv-row {
+  .full-width-cta {
+    margin: 40px 0;
+    padding: 0 25px;
+    position: relative;
+
+    .full-width-cta__wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      z-index: 2;
+      position: relative;
+
+      .full-width-cta__figure {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        max-width: 500px;
+        -ms-flex-item-align: center;
+        align-self: center;
+
+        .full-width-cta__callout {
+          position: absolute;
+          padding: 5px 15px;
+          background: #fff;
+          color: #e40571;
+          text-transform: uppercase;
+          top: 0;
+          left: 0;
+          right: 0;
+          text-align: center;
+          font-weight: 600;
+          font-size: 20px;
+          width: 285px;
+        }
+
+        .full-width-cta__callout--pink {
+          color: #e40571;
+        }
+
+        .full-width-cta__image {
+          width: 100%;
+          height: 300px;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
+
+      .full-width-cta__promo {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: -10px 0;
+        -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 17%);
+        box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 17%);
+        text-align: center;
+        width: 285px;
+        z-index: 0;
+
+        .full-width-cta__link {
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          padding: 30px;
+          text-decoration: none;
+
+          .full-width-cta__eyebrow {
+            color: #165C7D;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 16px;
+            -ms-flex-item-align: center;
+            align-self: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 225px;
+          }
+
+          .full-width-cta__offer {
+            -ms-flex-item-align: center;
+            align-self: center;
+            margin-top: auto;
+            padding: 7px 14px;
+            border-radius: 50px;
+            font-weight: 600;
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            text-transform: uppercase;
+            background-color: #e40571;
+            border: 1px solid #e40571;
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .full-width-cta::before, .full-width-cta::after {
+    content: "";
+    background-color: #f1f1f1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 270px;
+    z-index: 1;
+    top: 0;
+  }
+}

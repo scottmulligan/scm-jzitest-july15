@@ -1,0 +1,13 @@
+﻿---
+ID: "5ef3e38a-7080-48b9-a87e-4b21123a0958"
+Parent: "78259cd6-4138-41a1-bcaf-2a01e1f38b2b"
+Template: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/new-york/the-hilton-club-new-york/Data/Two Column CTA 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ec29c0c-fc5d-4da8-9adf-d2ccefdef55c"

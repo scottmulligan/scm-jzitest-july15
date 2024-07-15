@@ -1,0 +1,25 @@
+﻿---
+ID: "fb48f31d-31f8-4d7c-8896-12565d2f73c8"
+Parent: "92a5d88f-5711-4690-b1d7-a0c4e8c0067e"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/new-york/Data"
+BranchID: "e6952b59-41b9-4f19-a6a8-e995ea78df57"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F9F119A8-598E-4175-BF31-651905A97C56}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e50222b8-d55a-402e-8934-e885f619ade9"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfa74b8d-41f8-46ab-914f-c8b08514e437"

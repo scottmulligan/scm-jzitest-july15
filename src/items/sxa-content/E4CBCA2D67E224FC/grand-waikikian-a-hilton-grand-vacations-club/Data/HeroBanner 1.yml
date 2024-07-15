@@ -1,0 +1,27 @@
+﻿---
+ID: "9c758bb7-6aa9-43a7-94c2-8ae128394429"
+Parent: "c9df9195-1dfd-4693-a2f8-42c6c2f6cba6"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/hawaii/oahu/grand-waikikian-a-hilton-grand-vacations-club/Data/HeroBanner 1"
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="{871DFB79-9B81-49C2-B7DB-DFCB3BEA77A8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
+      Hint: Text
+      Value: <p>An inspired Waikiki Beach resort</p>
+    - ID: "27b909fd-63d0-4f13-b449-fa185536d493"
+      Hint: Tagline
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "843653c1-4228-4273-8346-a312e5219bca"
+    - ID: "e91adc46-b038-4092-bc72-afd5ec708db5"
+      Hint: Title
+      Value: Grand Waikikian, a Hilton Grand Vacations Club

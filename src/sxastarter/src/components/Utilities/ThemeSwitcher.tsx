@@ -1,0 +1,32 @@
+import React, { useEffect, useState } from 'react';
+
+export const Default = (): JSX.Element => {
+  const [isSystemDark, setIsSystemDark] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+    if (mq.matches) {
+      setIsSystemDark(true);
+    }
+
+    mq.addEventListener('change', (evt) => {
+      setIsSystemDark(evt.matches);
+    });
+  }, []);
+
+  useEffect(() => {
+    document.body.classList.toggle('dark', isSystemDark);
+  }, [isSystemDark]);
+
+  return (
+    <label className="theme-switcher">
+      <input
+        type="checkbox"
+        checked={isSystemDark}
+        onChange={() => setIsSystemDark(!isSystemDark)}
+      />
+      <span className="theme-switcher-slider"></span>
+    </label>
+  );
+};

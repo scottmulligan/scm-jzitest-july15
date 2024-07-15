@@ -1,0 +1,27 @@
+﻿---
+ID: "03a450df-4560-4ea1-b659-e45888275c87"
+Parent: "b8bccd1c-70df-4683-8f67-451740738ca0"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/florida/central/seaworld-orlando-a-hilton-grand-vacations-club/Data/HeroBanner 1"
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="{DACD6135-EBA4-447C-9C8A-A2579D8CC080}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
+      Hint: Text
+      Value: <p>Find your happy place</p>
+    - ID: "27b909fd-63d0-4f13-b449-fa185536d493"
+      Hint: Tagline
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "846cdaf3-e104-4d7c-a31d-72f4239f71f5"
+    - ID: "e91adc46-b038-4092-bc72-afd5ec708db5"
+      Hint: Title
+      Value: SeaWorld® Orlando, a Hilton Grand Vacations Club

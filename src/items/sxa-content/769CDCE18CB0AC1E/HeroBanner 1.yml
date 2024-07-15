@@ -1,0 +1,13 @@
+﻿---
+ID: "db6d5d43-fc35-41fc-ac86-63ffa3d29762"
+Parent: "78259cd6-4138-41a1-bcaf-2a01e1f38b2b"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/new-york/the-hilton-club-new-york/Data/HeroBanner 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f546297-f114-459b-9152-e5a896d25a3c"

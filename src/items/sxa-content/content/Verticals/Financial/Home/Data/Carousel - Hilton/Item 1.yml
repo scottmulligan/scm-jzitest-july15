@@ -1,0 +1,52 @@
+﻿---
+ID: "fd46c0a5-87f3-446a-b010-6cd5dfef032c"
+Parent: "8cc926e2-4644-4b45-92ec-70386314c113"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: "/sitecore/content/Verticals/Financial/Home/Data/Carousel - Hilton/Item 1"
+SharedFields:
+- ID: "afea6373-024f-4b89-a68b-83115e3701d8"
+  Hint: Video
+  Value: |
+    <image mediaid="{9638CF5D-70AF-47E9-A55C-C1E8A35541F7}" />
+- ID: "ba78a3c0-7c60-40ba-8d42-6bf559d9ca72"
+  Hint: Image
+  Value: |
+    <image mediaid="{08B7C3F9-D7C6-4FB6-B687-8CBD62ED572E}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{321B71A6-169C-4A12-905A-0BF5F5CCD7E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: Escape the Ordinary
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Explore everyday banking" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{406FD98C-50E4-4F30-90E4-6245498A2D10}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "515ea308-3ab1-48d7-8ee4-73927e807317"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: 
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3351af3f-868e-47fc-b5c3-ad0446981faf"
+      Hint: Title
+      Value: "Il n'y a qu'un seul avenir parfait - le vôtre"
+    - ID: "3cba1ba9-9f99-4a72-9144-7f02b3bdd158"
+      Hint: Link
+      Value: |
+        <link text="Explorez la banque au quotidien" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{406FD98C-50E4-4F30-90E4-6245498A2D10}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f563fdb6-d2ba-4091-afd3-b23507dd1434"
+    - ID: "ad84ce04-c8f0-485e-bf12-9b321c6ff2fb"
+      Hint: Text
+      Value: <p>Commencez en ligne et accédez à notre gamme de services financiers personnalisés.</p>

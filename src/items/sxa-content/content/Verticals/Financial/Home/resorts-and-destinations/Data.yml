@@ -1,0 +1,17 @@
+﻿---
+ID: "5cb426f0-740b-43ad-80b3-9d6043ee4926"
+Parent: "af81673a-e745-40b2-8ea7-34e0589693a7"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/Data"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a063fb1f-f190-493c-bb08-e940028dea30"

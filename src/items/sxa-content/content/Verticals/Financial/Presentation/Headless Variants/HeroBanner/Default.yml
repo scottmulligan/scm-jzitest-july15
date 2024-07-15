@@ -1,0 +1,13 @@
+﻿---
+ID: "87c98808-caaf-4bd9-b9ff-acf35d6fe786"
+Parent: "143867ac-6dc2-41df-ab8a-b8e1a8528b13"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Financial/Presentation/Headless Variants/HeroBanner/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0e979b0-12da-47be-a9fd-5eb7f687a8b5"

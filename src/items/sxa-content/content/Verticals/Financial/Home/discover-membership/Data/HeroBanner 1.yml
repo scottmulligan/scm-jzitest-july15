@@ -1,0 +1,13 @@
+﻿---
+ID: "7703f71e-1c1b-4451-b0c1-2fcf646d5bb7"
+Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: "/sitecore/content/Verticals/Financial/Home/discover-membership/Data/HeroBanner 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "624ac478-4967-470f-8858-41081716226c"

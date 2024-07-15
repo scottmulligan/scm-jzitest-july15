@@ -1,0 +1,181 @@
+.hgv-row {
+  clear: both;
+
+.multi-cta--three {
+  .multi-cta__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .multi-cta__item {
+    margin: 0;
+    width: 100%;
+
+    .multi-cta__actions {
+      margin: 20px auto;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+
+      .multi-cta__button--primary {
+        background-color: #b2e7ea;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        text-transform: none;
+        width: 70%;
+        font-weight: normal;
+        min-height: 50px;
+        padding: .8em;
+        margin: 0 auto;
+      }
+    }
+
+    .multi-cta__title {
+      font-size: 20px;
+      width: 100%;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+
+    .multi-cta__item:first-child {
+      padding: 1em 4em 0 0;
+      border-right: 1px solid #cacaca;
+    }
+
+    .multi-cta__item:nth-child(2) {
+      padding: 1em 0 0 4em;
+    }
+
+    .multi-cta__item:last-child {
+      padding-right: 0;
+      border-right: none;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      width: 100%;
+      flex-direction: row;
+      max-width: none;
+    }
+  }
+
+  .hilton-bar__wrapper {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 12px;
+
+    .hilton-bar__title {
+      font-size: 32px;
+      margin: 20px auto;
+      font-weight: 300;
+    }
+  }
+
+  .hilton-bar--multi-cta {
+    .hilton-bar__wrapper {
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 50px 12px 0;
+
+      .hilton-bar__media {
+        margin: 0 auto;
+        width: 100%;
+
+        .hilton-bar__image {
+          margin: 40px 0 10px !important;
+          height: auto;
+        }
+      }
+
+      .hilton-bar__title {
+        font-size: 32px;
+        margin: 20px auto;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .hilton-bar__media {
+    margin: 0 auto;
+    width: 100%;
+
+    .hilton-bar__image {
+      margin: 0 auto;
+    }
+
+    .hilton-bar--multi-cta .hilton-bar__image {
+      padding: 0;
+    }
+
+    .hilton-bar__caption {
+      color: #000D14;
+      font-size: 22px;
+      margin: 1em auto 0;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hilton-bar__wrapper {
+        padding: 40px 0;
+    }
+
+    .hilton-bar__media {
+      width: 90%;
+    }
+
+    .hilton-bar__caption {
+      font-size: 26px;
+    }
+
+    .hilton-bar--multi-cta .hilton-bar__image {
+      margin: 40px 0 10px !important;
+      height: auto;
+    }
+  }
+}
+
+.hgv-bg--silver {
+  background-color: #f1f1f1;
+}
+
+.hgv-section {
+  clear: both;
+  padding: 40px 0;
+}
+
+@media (min-width: 992px) {
+  .multi-cta--three .multi-cta__item {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .multi-cta--three .multi-cta__item:last-child {
+      border-top: 1px solid rgba(0, 0, 0, 10%);
+      padding-top: 50px;
+      display: inline;
+      margin: 50px auto;
+  }
+}

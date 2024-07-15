@@ -1,0 +1,13 @@
+﻿---
+ID: "ca4a8d08-eb69-42b5-95e0-618d36b6dd10"
+Parent: "92c5a801-cd85-43e2-8240-34ad352e9314"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticals/Financial/Home page/Carousels/HGV
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12b3c87c-cbd2-47be-9abc-9b017b942234"

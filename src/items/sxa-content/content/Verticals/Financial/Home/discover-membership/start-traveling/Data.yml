@@ -1,0 +1,18 @@
+﻿---
+ID: "2a34fbed-9605-42aa-83c5-deff21452adc"
+Parent: "949d8a98-6ff3-4ea9-878b-fdb447606707"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/discover-membership/start-traveling/Data"
+BranchID: "f1e90846-d2fc-4ef5-8970-891d0d88737f"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3A0DF04E-2227-4DAD-9B14-08D7A15F8450}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31b24b9c-79e3-4043-873c-02d96c1218d9"

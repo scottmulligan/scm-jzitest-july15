@@ -1,0 +1,22 @@
+﻿---
+ID: "54d69bdf-e282-4f63-bfd2-48a7c6a6d8b8"
+Parent: "4d17eb28-fb11-45cb-800c-28ce2b4ad52f"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Financial/Home/retirement-planning/vacation-ideas/Data/Tagline"
+BranchID: "f4216084-ae14-4cbb-adf1-22292083f63c"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{186F92A9-C54A-470E-AA60-726BA825F0AF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>A partner in your retirement journey,<em style="color: var(--bg-accent);"> where every transaction counts.</em></h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a06b12b-c865-4167-b0a9-b7f354cdc214"

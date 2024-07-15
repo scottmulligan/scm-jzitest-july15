@@ -1,0 +1,37 @@
+﻿---
+ID: "861e7b90-3674-4432-896a-594949df3aa7"
+Parent: "b8bccd1c-70df-4683-8f67-451740738ca0"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/florida/central/seaworld-orlando-a-hilton-grand-vacations-club/Data/Promo CTA 1"
+SharedFields:
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image height="" mediaid="{83A580CC-FF9D-4635-AF47-41497CF2E6DD}" vspace="" hspace="" alt="close-up-young-businesswoman" width="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: "A Family-Sized Resort Near SeaWorld Orlando"
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: 
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="Explore Vacation Ownership" url="https://example.com" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38db98d2-6519-432d-a279-394d649bfd44"
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: "<p>Located opposite SeaWorld, this Orlando timeshare resort is made for families looking to make a splash in the theme-park capital. Make yourself at home in a multi-bedroom suite with a full kitchen, living and dining areas, and a screened balcony or lanai for making the most of the warm Florida weather. And even though the resort is just minutes from Walt Disney World<span>&reg;</span>, Universal Orlando<span>&reg;</span>&nbsp;and Universal's Volcano Bay&trade;, there&rsquo;s plenty to do on-property too with multiple pools, a kids&rsquo; splash pad, movie theater, and activities for the whole family.</p>"

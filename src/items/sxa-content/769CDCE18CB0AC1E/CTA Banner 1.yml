@@ -1,0 +1,36 @@
+﻿---
+ID: "36849824-378e-4907-83bf-32ee2b21c30e"
+Parent: "78259cd6-4138-41a1-bcaf-2a01e1f38b2b"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/new-york/the-hilton-club-new-york/Data/CTA Banner 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "34c7ca9b-6c24-4133-bd83-b453b838eb0b"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="external" url="https://example.com" anchor="" target="" />
+    - ID: "6f94c5b4-e2b4-41eb-899f-9a29904b8e18"
+      Hint: Image
+      Value: |
+        <image mediaid="{429B2412-2125-467A-A569-A97B13660760}" />
+    - ID: "72b19acc-d575-4ae4-a0cf-2182e0c64562"
+      Hint: Eyebrow
+      Value: Save now. Travel later.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9391943e-4a63-4e65-a28c-b97496991488"
+    - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
+      Hint: Text
+      Value: |
+        <p>3 Days/2 Nights For Only</p>
+        <p>$349 Per Stay</p>
+        <p style="font-size: 13px; margin: 10px 0 15px; font-weight: 200;">+ Get 15,000 Hilton Honors Points</p>
+    - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
+      Hint: Title
+      Value: New York City

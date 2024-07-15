@@ -1,0 +1,27 @@
+﻿---
+ID: "7d45b045-8ebc-4143-b7c7-cecf4a91dbe7"
+Parent: "78259cd6-4138-41a1-bcaf-2a01e1f38b2b"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/new-york/the-hilton-club-new-york/Data/NY Lifestyle Sunset"
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="{1815169E-372C-43F6-BBA3-D53048D0C502}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
+      Hint: Text
+      Value: <p>Make a break for the Big Apple.</p>
+    - ID: "27b909fd-63d0-4f13-b449-fa185536d493"
+      Hint: Tagline
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90f21cf2-cfeb-41df-95f5-60646cc5bb44"
+    - ID: "e91adc46-b038-4092-bc72-afd5ec708db5"
+      Hint: Title
+      Value: The Hilton Club – New York

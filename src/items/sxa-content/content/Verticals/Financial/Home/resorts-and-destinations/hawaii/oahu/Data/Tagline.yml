@@ -1,0 +1,22 @@
+﻿---
+ID: "ac07e0d0-9e77-4997-9b52-d7149db31894"
+Parent: "ad962706-a9ab-4baa-b9a0-72652f023de1"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/hawaii/oahu/Data/Tagline"
+BranchID: "e6952b59-41b9-4f19-a6a8-e995ea78df57"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8A63E4E5-E82F-4BC4-84E8-AE611D960D99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Powering small businesses,<em style="color: var(--bg-accent);"> one transaction at a time.</em></h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e79b8cad-a562-49ad-a60e-f5d9af3dae5a"

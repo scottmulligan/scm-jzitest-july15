@@ -1,0 +1,13 @@
+﻿---
+ID: "a63f145f-1c28-4da2-8a82-b1f263bcc1e2"
+Parent: "54670690-3107-45f4-aa52-b83f5a1801d2"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Financial/Presentation/Headless Variants/Promo CTA/HGV
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cda33308-470a-4f39-8c96-d8881144abc5"

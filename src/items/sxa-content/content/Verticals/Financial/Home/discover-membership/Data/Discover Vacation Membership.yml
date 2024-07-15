@@ -1,0 +1,30 @@
+﻿---
+ID: "7b951d1f-659b-4966-9e00-57150aa54748"
+Parent: "3064b748-c9ff-49c9-84f4-b97c856f794a"
+Template: "0089bcb3-0117-43f2-a760-0771d5ff7417"
+Path: "/sitecore/content/Verticals/Financial/Home/discover-membership/Data/Discover Vacation Membership"
+SharedFields:
+- ID: "5a8416e1-a058-47d2-96df-69d2a08e69fc"
+  Hint: Image
+  Value: |
+    <image mediaid="{DAFD8382-A0F1-47C5-B978-FDC060CA0BCD}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e25a144-5899-4c7e-b0b8-d7209cd76d27"
+      Hint: Text
+      Value: <p><span>Where your sense of adventure will feel at home&nbsp;</span></p>
+    - ID: "27b909fd-63d0-4f13-b449-fa185536d493"
+      Hint: Tagline
+      Value: 
+    - ID: "5c3d6a49-c5e9-4caa-809d-98184f118223"
+      Hint: Icon
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3cfb7c6-6fc2-46b0-b474-4ec64e0115d6"
+    - ID: "e91adc46-b038-4092-bc72-afd5ec708db5"
+      Hint: Title
+      Value: Discover Vacation Membership

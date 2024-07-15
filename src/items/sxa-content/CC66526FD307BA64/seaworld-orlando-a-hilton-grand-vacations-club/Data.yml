@@ -1,0 +1,18 @@
+﻿---
+ID: "b8bccd1c-70df-4683-8f67-451740738ca0"
+Parent: "6df427cf-5ec0-47af-8211-7d152d6a8dc9"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/resorts-and-destinations/florida/central/seaworld-orlando-a-hilton-grand-vacations-club/Data"
+BranchID: "e6952b59-41b9-4f19-a6a8-e995ea78df57"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F9F119A8-598E-4175-BF31-651905A97C56}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "db64914a-c751-4bd6-bbcf-16ee4a301ff1"

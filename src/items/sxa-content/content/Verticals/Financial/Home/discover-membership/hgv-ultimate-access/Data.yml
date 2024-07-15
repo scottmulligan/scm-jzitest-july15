@@ -1,0 +1,18 @@
+﻿---
+ID: "aab40183-042a-46dd-a064-be1eb55a62c2"
+Parent: "3344efa8-8ea1-4948-9121-a0708f36bce8"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/Verticals/Financial/Home/discover-membership/hgv-ultimate-access/Data"
+BranchID: "f1e90846-d2fc-4ef5-8970-891d0d88737f"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3A0DF04E-2227-4DAD-9B14-08D7A15F8450}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86248864-28f3-4b39-81d7-07ae5f2abaa6"
